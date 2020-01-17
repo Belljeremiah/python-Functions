@@ -30,3 +30,23 @@ def hide_and_seek(childArray):
         print(f'{child} is playing hide and seek so metal!!!')
         
 hide_and_seek(hiding_kids)
+
+# Chicken Monkey Practice
+
+def chicken_monkey():
+    
+    for unit in range(1, 101):
+        is_chicken_monkey = False
+        print(unit)
+        if unit % 5 == 0 and unit % 7 == 0:
+            print(f'{unit} is Chicken Monkey Tacos')
+            is_chicken_monkey = True
+        if is_chicken_monkey == False:
+            if unit % 5 == 0:
+                print(f'{unit} it is a chicken!')
+            if unit % 7 == 0:
+                print(f'{unit} it is a monkey!')
+                
+chicken_monkey()
+
+# fin monkey has been chickened to tacos
